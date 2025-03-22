@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9f/edfeSooA=",
+  "dgSpecHash": "1vaHuqFOlL8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\bot\\KuncirRamBOT\\KuncirRamBOT.csproj",
+  "projectFilePath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\KuncirRamBOT\\KuncirRamBOT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rakad\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
     "C:\\Users\\rakad\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

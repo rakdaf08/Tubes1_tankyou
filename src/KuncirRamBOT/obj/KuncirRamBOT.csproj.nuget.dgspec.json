@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\bot\\KuncirRamBOT\\KuncirRamBOT.csproj": {}
+    "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\KuncirRamBOT\\KuncirRamBOT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\bot\\KuncirRamBOT\\KuncirRamBOT.csproj": {
+    "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\KuncirRamBOT\\KuncirRamBOT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\bot\\KuncirRamBOT\\KuncirRamBOT.csproj",
+        "projectUniqueName": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\KuncirRamBOT\\KuncirRamBOT.csproj",
         "projectName": "KuncirRamBOT",
-        "projectPath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\bot\\KuncirRamBOT\\KuncirRamBOT.csproj",
+        "projectPath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\KuncirRamBOT\\KuncirRamBOT.csproj",
         "packagesPath": "C:\\Users\\rakad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\bot\\KuncirRamBOT\\obj\\",
+        "outputPath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\KuncirRamBOT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rakad\\AppData\\Roaming\\NuGet\\NuGet.Config"
