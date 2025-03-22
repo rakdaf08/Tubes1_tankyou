@@ -1,5 +1,5 @@
 @echo off
-REM TemplateBot.cmd - Run the bot in development or release mode
+REM KunciRamBot.cmd - Run the bot in development or release mode
 REM Set MODE=dev for development (default, always rebuilds)
 REM Set MODE=release for release (only runs if bin exists)
 

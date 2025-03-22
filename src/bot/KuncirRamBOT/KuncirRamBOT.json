@@ -1,0 +1,10 @@
+{
+  "name": "KuncirRamBOT",
+  "version": "1.0",
+  "authors": [ "Raka Daffa", "Julius Arthur", "Sakti Bimasena"],
+  "description": "Siap menguncir ramBOT-mu",
+  "homepage": "www.kuncirRamBOT.com",
+  "countryCodes": [ "id" ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C#"
+}
