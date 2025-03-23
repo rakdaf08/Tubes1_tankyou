@@ -1,130 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/saktibimasena/Downloads/Robocode_2/src/Sakbot/Sakbot.csproj": {}
+    "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\alternative-bots\\Sakbot\\Sakbot.csproj": {}
   },
   "projects": {
-    "/Users/saktibimasena/Downloads/Robocode_2/src/Robocode.TankRoyale.BotApi/Robocode.TankRoyale.BotApi.csproj": {
-      "version": "0.0.0-internal.custom-build",
-      "restore": {
-        "projectUniqueName": "/Users/saktibimasena/Downloads/Robocode_2/src/Robocode.TankRoyale.BotApi/Robocode.TankRoyale.BotApi.csproj",
-        "projectName": "Robocode.TankRoyale.BotApi",
-        "projectPath": "/Users/saktibimasena/Downloads/Robocode_2/src/Robocode.TankRoyale.BotApi/Robocode.TankRoyale.BotApi.csproj",
-        "packagesPath": "/Users/saktibimasena/.nuget/packages/",
-        "outputPath": "/Users/saktibimasena/Downloads/Robocode_2/src/Robocode.TankRoyale.BotApi/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/saktibimasena/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Build.Locator": {
-              "target": "Package",
-              "version": "[1.7.8, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "System.Text.Json": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/saktibimasena/Downloads/Robocode_2/src/Sakbot/Sakbot.csproj": {
+    "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\alternative-bots\\Sakbot\\Sakbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saktibimasena/Downloads/Robocode_2/src/Sakbot/Sakbot.csproj",
+        "projectUniqueName": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\alternative-bots\\Sakbot\\Sakbot.csproj",
         "projectName": "Sakbot",
-        "projectPath": "/Users/saktibimasena/Downloads/Robocode_2/src/Sakbot/Sakbot.csproj",
-        "packagesPath": "/Users/saktibimasena/.nuget/packages/",
-        "outputPath": "/Users/saktibimasena/Downloads/Robocode_2/src/Sakbot/obj/",
+        "projectPath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\alternative-bots\\Sakbot\\Sakbot.csproj",
+        "packagesPath": "C:\\Users\\rakad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\alternative-bots\\Sakbot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/saktibimasena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rakad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/Users/saktibimasena/Downloads/Robocode_2/src/Sakbot/packages": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "/Users/saktibimasena/Downloads/Robocode_2/src/Robocode.TankRoyale.BotApi/Robocode.TankRoyale.BotApi.csproj": {
-                "projectPath": "/Users/saktibimasena/Downloads/Robocode_2/src/Robocode.TankRoyale.BotApi/Robocode.TankRoyale.BotApi.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -143,9 +44,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration.Binder": {
+            "Robocode.TankRoyale.BotApi": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[0.30.0, )"
             }
           },
           "imports": [
@@ -164,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
