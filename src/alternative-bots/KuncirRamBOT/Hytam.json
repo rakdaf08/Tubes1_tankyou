@@ -1,0 +1,10 @@
+{
+  "name": "Hytam",
+  "version": "1.0",
+  "authors": [ "Raka Daffa", "Julius Arthur", "Sakti Bimasena"],
+  "description": "Hytam",
+  "homepage": "www.Hytam.com",
+  "countryCodes": [ "id" ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C#"
+}
