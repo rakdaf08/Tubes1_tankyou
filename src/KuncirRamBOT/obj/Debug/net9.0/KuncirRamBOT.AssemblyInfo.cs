@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KuncirRamBOT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56d5e2851ff5e98fce7296bbf95f046044087664")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9cb281a20d450132720f9a4e2e100d737bca6fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("KuncirRamBOT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KuncirRamBOT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
