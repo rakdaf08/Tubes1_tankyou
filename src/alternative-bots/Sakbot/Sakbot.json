@@ -1,0 +1,10 @@
+{
+  "name": "Sakbot",
+  "version": "1.0",
+  "authors": ["Sakti"],
+  "description": "Hit n Run Spesialis Penghancur Bot Ngendok",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}
