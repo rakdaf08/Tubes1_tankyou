@@ -10,7 +10,7 @@ public class Sakbot : Bot
 
     private const int SAFE_DISTANCE = 50; // jarak max terdekat dari musuh untuk gerak
     private const int FIRE_DISTANCE = 150; // jarak max terjauh dari musuh untuk tembak
-    private const int RADAR_SWEEP_ANGLE = 20; 
+    private const int RADAR_SWEEP_ANGLE = 20;
 
     static void Main(string[] args)
     {
@@ -24,8 +24,8 @@ public class Sakbot : Bot
         while (IsRunning)
         {
             // Jika musuh tidak terdeteksi atau sudah lama tidak terlihat, scan area
-            if (!enemyDetected || (TurnNumber - lastSeenTurn > 5)) 
-            {   
+            if (!enemyDetected || (TurnNumber - lastSeenTurn > 5))
+            {
                 // Lakukan scanning
                 TurnRadarRight(RADAR_SWEEP_ANGLE);
             }
@@ -38,12 +38,12 @@ public class Sakbot : Bot
     }
 
     public override void OnScannedBot(ScannedBotEvent e)
-    {   
+    {
         // Simpan posisi musuh
         enemyX = e.X;
         enemyY = e.Y;
         enemyDetected = true;
-        lastSeenTurn = TurnNumber; 
+        lastSeenTurn = TurnNumber;
 
         // Hitung sudut ke musuh, lalu sesuaikan radar
         double angleToEnemy = BearingTo(enemyX, enemyY);
@@ -52,7 +52,7 @@ public class Sakbot : Bot
     }
 
     private void MoveTowardEnemy()
-    {   
+    {
         // Hitung jarak dan arah ke musuh
         double distance = CalculateDistance(enemyX, enemyY);
         double angleToEnemy = BearingTo(enemyX, enemyY);
@@ -60,7 +60,7 @@ public class Sakbot : Bot
         TurnLeft(angleToEnemy);
 
         // Gerak hanya jika masih jauh dari safe_distance
-        if (distance > SAFE_DISTANCE + 20) 
+        if (distance > SAFE_DISTANCE + 20)
         {
             Forward(distance - SAFE_DISTANCE);
         }

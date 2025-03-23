@@ -20,7 +20,7 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Users\\rakad\\OneDrive\\Dokumen\\ITB\\Semester 4\\Stima\\Tubes1_tankyou\\src\\alternative-bots\\Sakbot\\packages": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -44,13 +44,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
             "Robocode.TankRoyale.BotApi": {
               "target": "Package",
-              "version": "[0.0.0-internal.custom-build, )"
+              "version": "[0.30.0, )"
             }
           },
           "imports": [
