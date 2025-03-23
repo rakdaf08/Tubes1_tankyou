@@ -1,0 +1,14 @@
+{
+  "name": "Tang",
+  "version": "1.0",
+  "authors": [
+    "Julius"
+  ],
+  "description": "Search closest",
+  "homepage": "",
+  "countryCodes": [
+    "id"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}
