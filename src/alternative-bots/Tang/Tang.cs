@@ -6,10 +6,10 @@ using Robocode.TankRoyale.BotApi.Events;
 public class Tang : Bot
 {   
     bool close = false;
-    double closest;
-    double t_x;
-    double t_y;
-    /* A bot that drives forward and backward, and fires a bullet */
+    double closest;//jarak dengan bot musuh
+    double t_x;//absis bot musuh yang terpilih
+    double t_y;//ordinat bot musuh yang terpilih
+    //bot yang menyerang bot musuh terdekat setiap turn nya
     static void Main(string[] args)
     {
         new Tang().Start();
@@ -20,12 +20,11 @@ public class Tang : Bot
     public override void Run()
     {
         AdjustRadarForGunTurn = true;
-        /* Customize bot colors, read the documentation for more information */
         BodyColor = Color.Gray;
         while (IsRunning)
         {
             close = false;
-            closest = 10000000;
+            closest = 10000000;//Mereset jarak dengan bot musuh
             Forward(200);
             TurnRight(90);
             SetTurnRadarRight(90);
@@ -35,7 +34,7 @@ public class Tang : Bot
 
     public override void OnScannedBot(ScannedBotEvent e)
     {
-        double distance = DistanceTo(e.X, e.Y);
+        double distance = DistanceTo(e.X, e.Y);//Jarak dengan bot musuh
         if (distance < closest){
             close = true;
             closest = distance;
@@ -49,13 +48,13 @@ public class Tang : Bot
         // double gunTurnAngle = NormalizeBearing(absoluteBearing - GunDirection);
         // double angle = GunBearingTo(x, y);
 
-        if (close){
+        if (close){//Menyerang jika Bot yang di scan adalah bot terdekat
             double firepower = (50/distance) * 10;
             TurnGunLeft(GunBearingTo(t_x, t_y));
             Fire(firepower);
         }
 
-        if (distance < 50){
+        if (distance < 50){//Menghindar dari bot musuh
             SetTurnRight(90);
             SetForward(200);
         }
@@ -90,6 +89,7 @@ public class Tang : Bot
 
     public override void OnHitByBullet(HitByBulletEvent e)
     {
+        //Menhindari bot musuh dari arah datangnya peluru.
         var bearing = CalcBearing(e.Bullet.Direction);
         TurnLeft(90 - bearing);
     }
